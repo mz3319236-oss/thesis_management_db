@@ -89,6 +89,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="auth-footer">
         Don't have an account? <a href="register.php">Register Here</a>
     </div>
+
+    <!-- Default Demo Credentials -->
+    <div class="demo-credentials">
+        <div class="demo-credentials-toggle" onclick="this.parentElement.classList.toggle('open')">
+            <span>🔑 Demo Credentials</span>
+            <span class="demo-arrow">▼</span>
+        </div>
+        <div class="demo-credentials-body">
+            <div class="demo-cred-row">
+                <span class="demo-badge demo-badge-admin">Admin</span>
+                <code>admin@university.edu</code>
+                <span class="demo-sep">/</span>
+                <code>password</code>
+            </div>
+            <div class="demo-cred-row">
+                <span class="demo-badge demo-badge-supervisor">Supervisor</span>
+                <code>supervisor@university.edu</code>
+                <span class="demo-sep">/</span>
+                <code>password</code>
+            </div>
+            <div class="demo-cred-row">
+                <span class="demo-badge demo-badge-student">Student</span>
+                <code>student@university.edu</code>
+                <span class="demo-sep">/</span>
+                <code>password</code>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>
